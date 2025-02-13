@@ -20,64 +20,114 @@
             </ul>
         </nav>
         <div class="hero">
-            <h1>あなたの生活を豊かにする製品</h1>
-            <p>高品質な製品で、毎日をもっと快適に</p>
-            <a href="#products" class="cta-button">商品を見る</a>
+            <div class="hero-content">
+                <h1>あなたのスキルを<br>世界に届けよう</h1>
+                <p class="hero-subtitle">オンライン講師として、あなたの知識と経験を<br>世界中の学習者と共有しませんか？</p>
+                <div class="cta-group">
+                    <a href="#products" class="cta-button primary">今すぐ始める</a>
+                    <a href="#features" class="cta-button secondary">詳しく見る</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-label">講師が活躍中</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100万+</span>
+                        <span class="stat-label">受講生</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">90%</span>
+                        <span class="stat-label">満足度</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- ヒーロー画像用のプレースホルダー -->
+            </div>
         </div>
     </header>
 
     <section id="features" class="features">
-        <h2>製品の特徴</h2>
+        <h2>講師になるメリット</h2>
         <div class="features-grid">
             <div class="feature-card">
-                <div class="feature-icon">🌟</div>
-                <h3>高品質</h3>
-                <p>厳選された素材を使用</p>
+                <div class="feature-icon">💰</div>
+                <h3>収入の可能性</h3>
+                <p>月額50万円以上を稼ぐ講師も</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">💪</div>
-                <h3>耐久性</h3>
-                <p>長く使える設計</p>
+                <div class="feature-icon">🌍</div>
+                <h3>グローバルリーチ</h3>
+                <p>世界中の学習者にリーチ</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">🌿</div>
-                <h3>環境配慮</h3>
-                <p>サステナブルな製品づくり</p>
+                <div class="feature-icon">⚡</div>
+                <h3>柔軟な働き方</h3>
+                <p>好きな時間に講義を作成</p>
             </div>
+        </div>
+        <div class="feature-cta">
+            <a href="#contact" class="cta-button primary">無料相談を予約する</a>
         </div>
     </section>
 
     <section id="products" class="products">
-        <h2>おすすめ商品</h2>
+        <h2>講師プラン</h2>
         <div class="product-grid">
-            <div class="product-card">
-                <div class="product-image"></div>
-                <h3>商品名1</h3>
-                <p>商品の説明がここに入ります。特徴や利点を簡潔に説明します。</p>
-                <button class="product-button">詳細を見る</button>
+            <div class="product-card featured">
+                <div class="product-badge">人気</div>
+                <h3>スタンダードプラン</h3>
+                <div class="product-price">
+                    <span class="price">¥0</span>
+                    <span class="period">スタート費用</span>
+                </div>
+                <ul class="product-features">
+                    <li>✓ 講座作成ツール</li>
+                    <li>✓ マーケティングサポート</li>
+                    <li>✓ 24時間テクニカルサポート</li>
+                    <li>✓ 収益分配率70%</li>
+                </ul>
+                <button class="product-button">無料で始める</button>
             </div>
             <div class="product-card">
-                <div class="product-image"></div>
-                <h3>商品名2</h3>
-                <p>商品の説明がここに入ります。特徴や利点を簡潔に説明します。</p>
-                <button class="product-button">詳細を見る</button>
-            </div>
-            <div class="product-card">
-                <div class="product-image"></div>
-                <h3>商品名3</h3>
-                <p>商品の説明がここに入ります。特徴や利点を簡潔に説明します。</p>
+                <div class="product-badge">プロ向け</div>
+                <h3>プロフェッショナルプラン</h3>
+                <div class="product-price">
+                    <span class="price">¥29,800</span>
+                    <span class="period">/月</span>
+                </div>
+                <ul class="product-features">
+                    <li>✓ スタンダードの全機能</li>
+                    <li>✓ 専属マネージャー</li>
+                    <li>✓ プロモーション優先表示</li>
+                    <li>✓ 収益分配率85%</li>
+                </ul>
                 <button class="product-button">詳細を見る</button>
             </div>
         </div>
     </section>
 
     <section id="contact" class="contact">
-        <h2>お問い合わせ</h2>
+        <h2>まずは無料相談から</h2>
+        <p class="contact-subtitle">経験豊富なアドバイザーが、あなたの講座作成をサポートします</p>
         <form class="contact-form">
-            <input type="text" placeholder="お名前" required>
-            <input type="email" placeholder="メールアドレス" required>
-            <textarea placeholder="メッセージ" required></textarea>
-            <button type="submit" class="submit-button">送信する</button>
+            <div class="form-group">
+                <input type="text" placeholder="お名前" required>
+                <input type="email" placeholder="メールアドレス" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" placeholder="電話番号（任意）">
+                <select required>
+                    <option value="">専門分野を選択</option>
+                    <option value="tech">テクノロジー</option>
+                    <option value="business">ビジネス</option>
+                    <option value="design">デザイン</option>
+                    <option value="other">その他</option>
+                </select>
+            </div>
+            <textarea placeholder="ご相談内容" required></textarea>
+            <button type="submit" class="submit-button">無料相談を予約する</button>
         </form>
     </section>
 
